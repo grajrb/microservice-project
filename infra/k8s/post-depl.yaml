@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: posts
-          image: graj9211/post:00.5
+          image: graj9211/post:latest
