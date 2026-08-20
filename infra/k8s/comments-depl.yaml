@@ -15,6 +15,7 @@ spec:
       containers:
         - name: comments
           image: graj9211/comments:latest
+          imagePullPolicy: Never
 ---
 apiVersion: v1
 kind: Service
