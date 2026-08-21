@@ -15,7 +15,7 @@ spec:
       containers:
         - name: client
           image: graj9211/client:latest
-          imagePullPolicy: Never
+          imagePullPolicy: IfNotPresent
 ---
 apiVersion: v1
 kind: Service
