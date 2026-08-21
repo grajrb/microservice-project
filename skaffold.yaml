@@ -15,7 +15,7 @@ build:
       sync:
         manual:
           - src: 'src/**/*.js'
-            dst: .
+            target: .
     - image: graj9211/comments
       context: comments
       docker:
@@ -23,7 +23,7 @@ build:
       sync:
         manual:
           - src: '**/*.js'
-            dst: .
+            target: .
     - image: graj9211/event-bus
       context: event-bus
       docker:
@@ -31,7 +31,7 @@ build:
       sync:
         manual:
           - src: '**/*.js'
-            dst: .
+            target: .
     - image: graj9211/moderation
       context: moderation
       docker:
@@ -39,7 +39,7 @@ build:
       sync:
         manual:
           - src: '**/*.js'
-            dst: .
+            target: .
     - image: graj9211/post
       context: posts
       docker:
@@ -47,7 +47,7 @@ build:
       sync:
         manual:
           - src: '**/*.js'
-            dst: .
+            target: .
     - image: graj9211/query
       context: query
       docker:
@@ -55,4 +55,4 @@ build:
       sync:
         manual:
           - src: '**/*.js'
-            dst: .
+            target: .
